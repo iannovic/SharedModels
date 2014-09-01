@@ -3,7 +3,7 @@ package com.app.models;
 public class Unit {
 
 	private int unitId;
-	private int ownerId;
+	private int userId;
 	private int type;
 	private int maxHealth;
 	private int damage;
@@ -13,12 +13,6 @@ public class Unit {
 	}
 	public void setUnitId(int unitId) {
 		this.unitId = unitId;
-	}
-	public int getOwnerId() {
-		return ownerId;
-	}
-	public void setOwnerId(int ownerId) {
-		this.ownerId = ownerId;
 	}
 	public int getType() {
 		return type;
@@ -37,6 +31,12 @@ public class Unit {
 	}
 	public void setDamage(int damage) {
 		this.damage = damage;
+	}
+	public int getUserId() {
+		return userId;
+	}
+	public void setUserId(int userId) {
+		this.userId = userId;
 	}
 	
 }
