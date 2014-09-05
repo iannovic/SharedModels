@@ -7,6 +7,8 @@ public class Unit {
 	private int type;
 	private int maxHealth;
 	private int damage;
+	private int xPos;
+	private int yPos;
 	
 	public int getUnitId() {
 		return unitId;
@@ -37,6 +39,18 @@ public class Unit {
 	}
 	public void setUserId(int userId) {
 		this.userId = userId;
+	}
+	public int getxPos() {
+		return xPos;
+	}
+	public void setxPos(int xPos) {
+		this.xPos = xPos;
+	}
+	public int getyPos() {
+		return yPos;
+	}
+	public void setyPos(int yPos) {
+		this.yPos = yPos;
 	}
 	
 }
